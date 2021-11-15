@@ -6,6 +6,13 @@
   "main": "index.js",
   "exports": "./index.js",
   "types": "index.d.ts",
+  "keywords": [
+    "tiptap",
+    "tiptap-editor",
+    "tiptap-extension",
+    "commonmark",
+    "markdown"
+  ],
   "scripts": {
     "types": "tsc index.js --declaration --allowJs --emitDeclarationOnly",
     "prepack": "tsc index.js --declaration --allowJs --emitDeclarationOnly"
