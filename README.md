@@ -1,5 +1,9 @@
-# tiptap-commonmark
+# Tiptap-Commonmark
 > A starter-kit for [the tiptap editor](https://tiptap.dev), based on [CommonMark](https://spec.commonmark.org/0.30/)
+
+[![install via npm](https://flat.badgen.net/badge/-/NPM/000?scale=1.1&icon=https://icongr.am/octicons/download.svg?color=ff9999&label&labelColor=000)](https://npmjs.com/package/tiptap-commonmark)
+[![latest version](https://flat.badgen.net/github/tag/binyamin/tiptap-commonmark?scale=1.1&label&icon=https://icongr.am/octicons/tag.svg?color=99ffff&color=000&labelColor=000)](https://github.com/binyamin/tiptap-commonmark/releases/latest)
+![ESM-ready](https://flat.badgen.net/badge/-/ESM-ready/000?label&labelColor=000&scale=1.1&icon=https://icongr.am/octicons/plug.svg?color=99ff99)
 
 ## About
 This package bundles a bunch of basic tiptap extensions. It's like tiptap's [official starter-kit](https://tiptap.dev/api/extensions/starter-kit), except that it's based on [the CommonMark specification](https://spec.commonmark.org/0.30/).
