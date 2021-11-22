@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@tiptap/core@^2.0.0-beta.138":
-  version "2.0.0-beta.138"
-  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.138.tgz#3a73b32b10f07ba2842142552457b52abf8cfc41"
-  integrity sha512-Cg3ig6c+NCBILYaVNf5h8vJdsRynhKzy+zQzH/91kLoWzpNV5J6R2sW32Oufuwvr0Kra1+kKKh/WIGpB3Ia4RA==
+"@tiptap/core@^2.0.0-beta.141":
+  version "2.0.0-beta.141"
+  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.141.tgz#7ba5d98f2ed9e45b278844ba38394241a020e86e"
+  integrity sha512-jfU0zfIpyz9TS8mbWNuKuJb2pXj/RtMkRCvvO7rdYwVshcDLi/s30ZU1tD6MAIea8zm1k0Q6PbN8Xd3G+wefUA==
   dependencies:
     "@types/prosemirror-commands" "^1.0.4"
     "@types/prosemirror-keymap" "^1.0.4"
@@ -20,7 +20,7 @@
     prosemirror-schema-list "^1.1.6"
     prosemirror-state "^1.3.4"
     prosemirror-transform "^1.3.3"
-    prosemirror-view "^1.22.0"
+    prosemirror-view "^1.23.1"
 
 "@tiptap/extension-blockquote@^2.0.0-beta.24":
   version "2.0.0-beta.24"
@@ -37,7 +37,7 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-bullet-list/-/extension-bullet-list-2.0.0-beta.23.tgz#64698c98039ad301c94a9041bbd117e82957be21"
   integrity sha512-ReoUiz9f1IX87RX+GRE+fCaLEzNNwmiP4kli3QH8/qrLK3qxvZYr9N31fUeOHecCctUofPSbQB79B39zSo9Ouw==
 
-"@tiptap/extension-code-block-lowlight@^2.0.0-beta.55":
+"@tiptap/extension-code-block-lowlight@^2.0.0-beta.57":
   version "2.0.0-beta.57"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-code-block-lowlight/-/extension-code-block-lowlight-2.0.0-beta.57.tgz#afaa3a59da8d688f4f402d31ad6e5bea6ff87390"
   integrity sha512-HbUkhJkTiDusLX+qqaJsqCiTKpWR6LPWScKP/Sk7744EnjMmyiqbmNwyqSx538Z8GIS89TKj1vERLUAAAOGCIQ==
@@ -268,15 +268,6 @@ prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transfor
   dependencies:
     prosemirror-model "^1.0.0"
 
-prosemirror-view@^1.22.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.23.0.tgz#07f5539006ad4cba46eea81d78f1a892536858ac"
-  integrity sha512-lQlaOZqHa6+igCryOIaH7gMJKT8Jbi2w99NFiE6BEUrlhakI2OU5uUeqpHk5S5ejddwv7BEtFyGCMl3SPjak7A==
-  dependencies:
-    prosemirror-model "^1.14.3"
-    prosemirror-state "^1.0.0"
-    prosemirror-transform "^1.1.0"
-
 prosemirror-view@^1.23.1:
   version "1.23.2"
   resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.23.2.tgz#20606ab3faad8a6a5320182256e92a2b96a87d31"
@@ -286,10 +277,10 @@ prosemirror-view@^1.23.1:
     prosemirror-state "^1.0.0"
     prosemirror-transform "^1.1.0"
 
-typescript@^4.4.4:
-  version "4.4.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
-  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+typescript@^4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
+  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
 
 w3c-keyname@^2.2.0:
   version "2.2.4"
