@@ -2,7 +2,7 @@ export default CommonMark;
 export type CommonMarkOptions = {
     useLowlight?: boolean;
     heading: HeadingOptions;
-    codeBlock: CodeBlockOptions | any;
+    codeBlock: CodeBlockOptions | CodeBlockLowlightOptions;
     link: LinkOptions;
     image: ImageOptions;
     hardBreak: HardBreakOptions;
@@ -27,6 +27,7 @@ export type CommonMarkOptions = {
 declare const CommonMark: Extension<CommonMarkOptions>;
 import { HeadingOptions } from "@tiptap/extension-heading/dist/packages/extension-heading/src/heading";
 import { CodeBlockOptions } from "@tiptap/extension-code-block/dist/packages/extension-code-block/src/code-block";
+import { CodeBlockLowlightOptions } from "@tiptap/extension-code-block-lowlight/dist/packages/extension-code-block-lowlight/src/code-block-lowlight";
 import { LinkOptions } from "@tiptap/extension-link/dist/packages/extension-link/src/link";
 import { ImageOptions } from "@tiptap/extension-image/dist/packages/extension-image/src/image";
 import { HardBreakOptions } from "@tiptap/extension-hard-break/dist/packages/extension-hard-break/src/hard-break";
