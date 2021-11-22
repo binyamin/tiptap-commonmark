@@ -37,7 +37,7 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-bullet-list/-/extension-bullet-list-2.0.0-beta.23.tgz#64698c98039ad301c94a9041bbd117e82957be21"
   integrity sha512-ReoUiz9f1IX87RX+GRE+fCaLEzNNwmiP4kli3QH8/qrLK3qxvZYr9N31fUeOHecCctUofPSbQB79B39zSo9Ouw==
 
-"@tiptap/extension-code-block-lowlight@^2.0.0-beta.55":
+"@tiptap/extension-code-block-lowlight@^2.0.0-beta.57":
   version "2.0.0-beta.57"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-code-block-lowlight/-/extension-code-block-lowlight-2.0.0-beta.57.tgz#afaa3a59da8d688f4f402d31ad6e5bea6ff87390"
   integrity sha512-HbUkhJkTiDusLX+qqaJsqCiTKpWR6LPWScKP/Sk7744EnjMmyiqbmNwyqSx538Z8GIS89TKj1vERLUAAAOGCIQ==

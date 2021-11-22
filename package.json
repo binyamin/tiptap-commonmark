@@ -45,14 +45,14 @@
   },
   "devDependencies": {
     "@tiptap/core": "^2.0.0-beta.138",
-    "@tiptap/extension-code-block-lowlight": "^2.0.0-beta.55",
+    "@tiptap/extension-code-block-lowlight": "^2.0.0-beta.57",
     "typescript": "^4.4.4"
   },
   "peerDependencies": {
     "@tiptap/core": "^2.0.0-beta.138"
   },
   "optionalDependencies": {
-    "@tiptap/extension-code-block-lowlight": "^2.0.0-beta.55"
+    "@tiptap/extension-code-block-lowlight": "^2.0.0-beta.57"
   },
   "repository": {
     "type": "git",
