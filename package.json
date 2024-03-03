@@ -4,7 +4,7 @@
 	"description": "A starter-kit for the tiptap editor, based on CommonMark",
 	"type": "module",
 	"main": "index.js",
-	"exports": "./index.js",
+	"module": "./index.js",
 	"types": "index.d.ts",
 	"keywords": [
 		"tiptap",
@@ -21,9 +21,6 @@
 		"index.js",
 		"index.d.ts"
 	],
-	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
-	},
 	"author": "Binyamin Aron Green (https://binyam.in)",
 	"license": "MIT",
 	"dependencies": {
@@ -49,10 +46,13 @@
 		"typescript": "^5.3.3"
 	},
 	"peerDependencies": {
-		"@tiptap/core": "^2.2.4"
-	},
-	"optionalDependencies": {
+		"@tiptap/core": "^2.2.4",
 		"@tiptap/extension-code-block-lowlight": "^2.2.4"
+	},
+	"peerDependenciesMeta": {
+		"@tiptap/extension-code-block-lowlight": {
+			"optional": true
+		}
 	},
 	"repository": {
 		"type": "git",
