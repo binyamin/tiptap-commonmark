@@ -20,4 +20,4 @@ _Note: I genuinely care about your opinion. Discussion is part of why I love ope
 
 ## Legal
 
-Any source-code is provided under the terms of the [MIT](https://github.com/binyamin/tiptap-commonmark/blob/main/LICENSE) license. Copyright 2021 [Binyamin Aron Green](https://binyam.in).
+Any source-code is provided under the terms of the [MIT](https://github.com/binyamin/tiptap-commonmark/blob/main/LICENSE) license. Copyright 2021 - 2024 [Binyamin Aron Green](https://binyam.in).
