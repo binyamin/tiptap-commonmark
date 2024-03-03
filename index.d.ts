@@ -1,11 +1,11 @@
 export default CommonMark;
 export type CommonMarkOptions = {
-    useLowlight?: boolean;
-    heading: HeadingOptions;
-    codeBlock: CodeBlockOptions | CodeBlockLowlightOptions;
-    link: LinkOptions;
-    image: ImageOptions;
-    hardBreak: HardBreakOptions;
+	useLowlight?: boolean;
+	heading: HeadingOptions;
+	codeBlock: CodeBlockOptions | CodeBlockLowlightOptions;
+	link: LinkOptions;
+	image: ImageOptions;
+	hardBreak: HardBreakOptions;
 };
 /**
  * @typedef CommonMarkOptions
