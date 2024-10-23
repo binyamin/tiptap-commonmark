@@ -24,30 +24,30 @@
 	"author": "Binyamin Aron Green (https://binyam.in)",
 	"license": "MIT",
 	"dependencies": {
-		"@tiptap/extension-blockquote": "^2.2.4",
-		"@tiptap/extension-bold": "^2.2.4",
-		"@tiptap/extension-bullet-list": "^2.2.4",
-		"@tiptap/extension-code": "^2.2.4",
-		"@tiptap/extension-code-block": "^2.2.4",
-		"@tiptap/extension-hard-break": "^2.2.4",
-		"@tiptap/extension-heading": "^2.2.4",
-		"@tiptap/extension-horizontal-rule": "^2.2.4",
-		"@tiptap/extension-image": "^2.2.4",
-		"@tiptap/extension-italic": "^2.2.4",
-		"@tiptap/extension-link": "^2.2.4",
-		"@tiptap/extension-list-item": "^2.2.4",
-		"@tiptap/extension-ordered-list": "^2.2.4",
-		"@tiptap/extension-paragraph": "^2.2.4",
-		"@tiptap/extension-text": "^2.2.4"
+		"@tiptap/extension-blockquote": "^2.9.1",
+		"@tiptap/extension-bold": "^2.9.1",
+		"@tiptap/extension-bullet-list": "^2.9.1",
+		"@tiptap/extension-code": "^2.9.1",
+		"@tiptap/extension-code-block": "^2.9.1",
+		"@tiptap/extension-hard-break": "^2.9.1",
+		"@tiptap/extension-heading": "^2.9.1",
+		"@tiptap/extension-horizontal-rule": "^2.9.1",
+		"@tiptap/extension-image": "^2.9.1",
+		"@tiptap/extension-italic": "^2.9.1",
+		"@tiptap/extension-link": "^2.9.1",
+		"@tiptap/extension-list-item": "^2.9.1",
+		"@tiptap/extension-ordered-list": "^2.9.1",
+		"@tiptap/extension-paragraph": "^2.9.1",
+		"@tiptap/extension-text": "^2.9.1"
 	},
 	"devDependencies": {
-		"@tiptap/core": "^2.2.4",
-		"@tiptap/extension-code-block-lowlight": "^2.2.4",
-		"typescript": "^5.3.3"
+		"@tiptap/core": "^2.9.1",
+		"@tiptap/extension-code-block-lowlight": "^2.9.1",
+		"typescript": "^5.6.3"
 	},
 	"peerDependencies": {
-		"@tiptap/core": "^2.2.4",
-		"@tiptap/extension-code-block-lowlight": "^2.2.4"
+		"@tiptap/core": "^2.9.1",
+		"@tiptap/extension-code-block-lowlight": "^2.9.1"
 	},
 	"peerDependenciesMeta": {
 		"@tiptap/extension-code-block-lowlight": {
