@@ -15,11 +15,12 @@ and this project tries to adhere to
 	**Security** in case of vulnerabilities.
 -->
 
-## Unreleased
+## [0.2.2] - 2026-06-01
 
 ### Changed
 
 - Move optional dependencies in `package.json` back to peer dependencies
+- Make configuration fields optional
 
 ### Security
 
@@ -49,6 +50,7 @@ and this project tries to adhere to
 - Add enough extensions for CommonMark compatibility
 - Generate type definitions
 
+[0.2.2]: https://github.com/binyamin/tiptap-commonmark/releases/tag/v0.2.2
 [0.2.1]: https://github.com/binyamin/tiptap-commonmark/releases/tag/v0.2.1
 [0.2.0]: https://github.com/binyamin/tiptap-commonmark/releases/tag/v0.2.0
 [0.1.0]: https://github.com/binyamin/tiptap-commonmark/releases/tag/v0.1.0
