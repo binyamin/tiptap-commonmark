@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"rootDir": "src",
+		"lib": ["ESNext", "DOM"],
+		"module": "ESNext",
+		"target": "ES2024",
+		"moduleResolution": "Bundler",
+		"outDir": "dist",
+		"declaration": true,
+		"moduleDetection": "auto",
+		// Best Practices
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		// Custom
+		"verbatimModuleSyntax": true
+	}
+}

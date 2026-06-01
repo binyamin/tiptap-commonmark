@@ -3,9 +3,18 @@
 	"version": "0.2.1",
 	"description": "A starter-kit for the tiptap editor, based on CommonMark",
 	"type": "module",
-	"main": "index.js",
-	"module": "./index.js",
-	"types": "index.d.ts",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"module": "./dist/index.js",
+			"import": "./dist/index.js",
+			"default": "./dist/index.js"
+		}
+	},
 	"keywords": [
 		"tiptap",
 		"tiptap-editor",
@@ -14,13 +23,9 @@
 		"markdown"
 	],
 	"scripts": {
-		"types": "tsc index.js --declaration --allowJs --emitDeclarationOnly",
-		"prepack": "npm run types"
+		"prepack": "tsc"
 	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
+	"files": ["dist/"],
 	"author": "Binyamin Aron Green (https://binyam.in)",
 	"license": "MIT",
 	"dependencies": {
