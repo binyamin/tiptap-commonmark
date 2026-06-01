@@ -44,8 +44,8 @@
 		"typescript": "^6.0.3"
 	},
 	"peerDependencies": {
-		"@tiptap/core": ">=2",
-		"@tiptap/extension-code-block-lowlight": ">=2"
+		"@tiptap/core": "^3.24.0",
+		"@tiptap/extension-code-block-lowlight": "^3.24.0"
 	},
 	"peerDependenciesMeta": {
 		"@tiptap/extension-code-block-lowlight": {
