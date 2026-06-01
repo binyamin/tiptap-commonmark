@@ -42,7 +42,7 @@ and this project tries to adhere to
 
 ### Added
 
-- Add enough extensions for commonmark compatibility
+- Add enough extensions for CommonMark compatibility
 - Generate type definitions
 
 [0.2.1]: https://github.com/binyamin/tiptap-commonmark/releases/tag/v0.2.1
