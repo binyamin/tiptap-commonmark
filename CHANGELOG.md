@@ -17,13 +17,17 @@ and this project tries to adhere to
 
 ## Unreleased
 
+### Changed
+
+- Move optional dependencies in `package.json` back to peer dependencies
+
 ### Security
 
 - Update dependencies
 
 ## [0.2.1] - 2021-11-22
 
-### Fixed
+### Changed
 
 - Marked `@tiptap/code-block-lowlight` as optional, by moving it from peerDeps
   to optionalDeps.
