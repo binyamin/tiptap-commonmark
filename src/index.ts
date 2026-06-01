@@ -21,11 +21,11 @@ export interface CommonMarkOptions {
 	 * @default false
 	 */
 	useLowlight?: boolean;
-	heading: HeadingOptions;
-	codeBlock: CodeBlockOptions | CodeBlockLowlightOptions;
-	link: LinkOptions;
-	image: ImageOptions;
-	hardBreak: HardBreakOptions;
+	heading?: HeadingOptions;
+	codeBlock?: CodeBlockOptions | CodeBlockLowlightOptions;
+	link?: LinkOptions;
+	image?: ImageOptions;
+	hardBreak?: HardBreakOptions;
 }
 
 /*
