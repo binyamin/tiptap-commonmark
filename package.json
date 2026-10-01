@@ -46,7 +46,7 @@
 	"devDependencies": {
 		"@tiptap/core": "^3.24.0",
 		"@tiptap/extension-code-block-lowlight": "^3.24.0",
-		"typescript": "^6.0.3"
+		"typescript": "^7.0.0"
 	},
 	"peerDependencies": {
 		"@tiptap/core": "^3.24.0",
